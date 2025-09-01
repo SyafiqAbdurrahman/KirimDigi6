@@ -1189,12 +1189,7 @@ function closeCheckinPopup(){
 							return new Intl.DateTimeFormat('id-ID', options).format(date).replace(/\./g, ':');
 						}
 
-						let wishesData = [
-							{ name: 'Budi & Keluarga', text: 'Selamat menempuh hidup baru Sisi & Willy! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah. Aamiin.', attendance: 'hadir', timestamp: new Date('2024-07-20T10:00:00') },
-							{ name: 'Rina', text: 'Happy wedding! Bahagia selalu untuk kalian berdua. Semoga langgeng sampai kakek nenek.', attendance: 'ragu', timestamp: new Date('2024-07-21T11:30:00') },
-							{ name: 'Doni', text: 'Mohon maaf tidak bisa hadir, semoga acaranya lancar.', attendance: 'tidak-hadir', timestamp: new Date('2024-07-21T15:00:00') },
-							{ name: 'Citra', text: 'Selamat ya, semoga cepat diberi momongan yang lucu-lucu. Aamiin ya Rabbal Alamin.', attendance: 'hadir', timestamp: new Date('2024-07-22T09:15:00') }
-						];
+						let wishesData = [];
 
 						function renderWishes() {
 							wishesList.innerHTML = '';
